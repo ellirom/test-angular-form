@@ -1,0 +1,21 @@
+<div class="">
+    <div class="media  d-flex justify-content-betweet">
+      <div>
+        <img src="http://lorempixel.com/64/64/people/" class="mr-3" >
+      </div>
+      <div class="media-body">
+        <h5 class="mt-0">{{list.name}}</h5>
+        <h6>{{list.email}}  </h6>
+        <p class="comment">
+          {{list.text}}
+        </p>
+       
+      </div>
+    </div>
+    <div>
+        <button  class="btn btn-warning"
+          (click)="deleteComment(list.email)">Delete comment</button>
+    </div>
+</div>
+
+
